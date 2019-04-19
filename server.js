@@ -34,7 +34,7 @@ app.use(express.static(path.join(__dirname, 'todo-app/dist')));
  
 //Catch all other routes and return to the index file
 app.get('*', (req, res) =>{
-   res.sendFile(path.join(__dirname, 'todo-app/dist/index.html'));
+   res.sendFile(path.join(__dirname, 'todo-app/dist/todo-app/index.html'));
 });
 
 //Get environment port or use 3000
