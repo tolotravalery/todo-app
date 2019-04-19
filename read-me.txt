@@ -1,0 +1,5 @@
+npm install rxjs-compat
+ng build
+npm install ngx-bootstrap bootstrap --save
+npm install @angular/http@2.1.2
+ng new todo-app
